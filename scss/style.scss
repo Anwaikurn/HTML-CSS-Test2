@@ -1,4 +1,11 @@
+@font-face {
+  font-family: PTSans-I;
+  src: url("../fonts/PT_Sans-Web-Italic.ttf") format("truetype");
+  font-style: normal;
+}
+
 .header-container, .menu-container, .content-container, .footer-container {
+  box-sizing: border-box;
   width: 980px;
   padding: 10px;
   margin: auto;
@@ -45,11 +52,11 @@ body {
   }
 
   .tel {
-    text-align: right;
     margin-left: auto;
-    font-style: italic;
-    line-height: 40px;
+    font-family: PTSans-I, sans-serif;
     font-size: 40px;
+    line-height: 40px;
+    text-align: right;
     align-self: center;
   }
 }
